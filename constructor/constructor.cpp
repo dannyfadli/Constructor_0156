@@ -14,8 +14,15 @@ public:
     void printAll();
 
     static void setNIm(int pNIm) { nim = pNIm; /*Definisi Function*/ }
+    static int getNim() { return nim; /*Definisi Function*/ }
 
+    Mahasiswa(string pnama) :nama(pnama) { setID(); }
 };
+
+void Mahasiswa::setID()
+{
+    id = ++nim;
+}
 
 int main()
 {
