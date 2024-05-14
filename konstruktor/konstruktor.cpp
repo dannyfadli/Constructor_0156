@@ -46,5 +46,8 @@ int main()
     Mahasiswa mhs2(156);
     Mahasiswa mhs3("Ardhian");
     Mahasiswa mhs4(156, "Ardhian");
+
+    mhs1.cetak();
+
 }
 
