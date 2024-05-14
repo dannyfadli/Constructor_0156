@@ -40,6 +40,13 @@ int main()
     Mahasiswa mhs3("Andi kurniawan");
     Mahasiswa mhs4("Joko Purbo");
 
+    mhs1.printALl();
+    mhs2.printALl();
+    mhs3.printALl();
+    mhs4.printALl();
 
+    system("pause");
+
+    return 0;
 }
 
