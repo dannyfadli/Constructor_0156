@@ -17,10 +17,28 @@ public:
 
 Mahasiswa::Mahasiswa()
 {
-    nim = 156;
+    nim = 0;
     nama = "";
-
 }
+
+Mahasiswa::Mahasiswa(int iNIm)
+{
+    nim = iNIm;
+}
+
+Mahasiswa::Mahasiswa(string iNama)
+{
+    nim = 0;
+    nama = iNama;
+}
+
+Mahasiswa::Mahasiswa(int iNim, string iNama)
+{
+    nim = iNim;
+    nama = iNama;
+}
+
+
 
 int main()
 {
