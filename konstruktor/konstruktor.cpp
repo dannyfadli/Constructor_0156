@@ -13,8 +13,14 @@ public:
     Mahasiswa(string);
     Mahasiswa(int iNim, string iNama);
     void cetak();
-
 };
+
+Mahasiswa::Mahasiswa()
+{
+    nim = 156;
+    nama = "";
+
+}
 
 int main()
 {
