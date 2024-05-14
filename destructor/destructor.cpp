@@ -33,7 +33,7 @@ void angka::cetakData()
 {
 	for (int i = 1; i <= panjang; i++)
 	{
-		cout << i << " = "; cout << arr[i] << endl;
+		cout << i << " = " << arr[i] << endl;
 	}
 }
 
@@ -43,10 +43,11 @@ void angka::isiData()
 	{
 		cout << i << " = "; cin >> arr[i];
 	}
+	cout << endl;
 }
 
 int main()
 {
-
+	angka belajarcpp(3);	//constructor Dipanggil
 }
 
