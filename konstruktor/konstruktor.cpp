@@ -49,5 +49,10 @@ int main()
 
     mhs1.cetak();
     mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+
+    system("Pause");
+    return 0;
 }
 
