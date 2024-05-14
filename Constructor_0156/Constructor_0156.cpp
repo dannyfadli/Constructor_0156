@@ -2,12 +2,17 @@
 #include <string>
 using namespace std;
 
-class mahasiswa 
+class Mahasiswa 
 {
 public:
     static int nim;
     int id;
     string nama;
+
+    void setID();
+    void printALl();
+
+    
 };
 
 int main()
