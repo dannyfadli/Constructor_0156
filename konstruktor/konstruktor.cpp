@@ -48,6 +48,6 @@ int main()
     Mahasiswa mhs4(156, "Ardhian");
 
     mhs1.cetak();
-
+    mhs2.cetak();
 }
 
