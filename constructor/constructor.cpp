@@ -13,6 +13,7 @@ public:
     void setID();
     void printAll();
 
+    static void setNIm(int pNIm) { nim = pNIm; /*Definisi Function*/ }
 
 };
 
