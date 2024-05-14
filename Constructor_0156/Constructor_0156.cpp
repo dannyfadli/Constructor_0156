@@ -36,6 +36,10 @@ void Mahasiswa::printALl()
 int main()
 {
     Mahasiswa mhs1("Lia kurnia");
-    Mahasiswa mhs2 
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
+
+
 }
 
