@@ -25,8 +25,17 @@ void Mahasiswa::setID()
     id = ++nim;
 }
 
+void Mahasiswa::printALl()
+{
+    cout << "ID = " << id << endl;
+    cout << "Nama = " << nama << endl;
+    cout << endl;
+}
+
+
 int main()
 {
-    
+    Mahasiswa mhs1("Lia kurnia");
+    Mahasiswa mhs2 
 }
 
